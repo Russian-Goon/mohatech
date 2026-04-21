@@ -31,6 +31,12 @@
     line-height: 1.7;
     overflow-x: hidden;
     cursor: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   /* Custom cursor */
@@ -155,12 +161,13 @@
 
   h1.hero-title {
     font-family: 'Syne', sans-serif;
-    font-size: clamp(3rem, 8vw, 7rem);
-    font-weight: 800;
-    line-height: 1.0;
-    letter-spacing: -0.04em;
+    font-size: clamp(3rem, 7vw, 6.5rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
     margin-bottom: 1.5rem;
     animation: fadeUp 0.6s 0.1s ease both;
+    word-break: break-word;
   }
   h1.hero-title .line2 { color: var(--accent); display: block; }
   h1.hero-title .line3 { color: var(--muted); display: block; font-weight: 400; }
@@ -248,12 +255,13 @@
   }
   h2.section-title {
     font-family: 'Syne', sans-serif;
-    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-size: clamp(2rem, 3.5vw, 3.2rem);
     font-weight: 700;
-    letter-spacing: -0.03em;
-    line-height: 1.1;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
     margin-bottom: 1.5rem;
     max-width: 700px;
+    word-break: break-word;
   }
 
   /* About */

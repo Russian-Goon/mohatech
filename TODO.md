@@ -1,10 +1,10 @@
-# Task Progress: Add images to portfolio
+# Make Portfolio Deployable on Vercel/Netlify ✅
 
-## TODO Steps (from approved plan):
-- [x] Create 'images' folder and move all JPEGs there
-- [x] Read portfolio-mr-moha-tech.html to analyze structure
-- [x] Edit HTML: Replace project thumbs with real images + add 4th card
-- [x] Test portfolio in browser
-- [x] Final completion
+## Steps:
+- [x] Step 1: Create vercel.json with SPA rewrites
+- [x] Step 2: Create netlify.toml with publish dir and redirects
+- [x] Step 3: Update README.md with deploy instructions
+- [x] Step 4: Test local server
+- [x] Step 5: Complete task
 
-**Task complete.** Images integrated into Projects section. Portfolio ready at portfolio-mr-moha-tech.html.
+**Portfolio now fully deploy-ready for Vercel/Netlify.**
